@@ -8,6 +8,6 @@ export class User {
   @Column()
   nick: string;
 
-  @Column({ default: Date.now() })
+  @Column()
   dateCreated: Date;
 }
